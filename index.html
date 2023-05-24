@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Churrascômetro</title>
+		<link rel="stylesheet" href="./Style/style.css" />
+		<link rel="icon" href="./imagens/logo1.png" type="image.png" />
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;600;800&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<div id="text-content">
+			<h1 class="anuncio">
+				Saiba quanto você precisará para o seu Churrasco!
+			</h1>
+		</div>
+		<div class="container">
+			<h1 id="titulo">Churrascômetro</h1>
+
+			<label for="adultos">Quantidade de adultos</label>
+			<input
+				id="adultos"
+				type="number"
+				name="adultos"
+				min="0"
+				placeholder="Adultos"
+			/>
+
+			<label for="criancas">Quantidade de crianças</label>
+			<input
+				id="criancas"
+				type="number"
+				name="criancas"
+				min="0"
+				placeholder="Crianças"
+			/>
+
+			<label for="duracao">Duração do evento </label>
+			<input
+				id="duracao"
+				type="number"
+				name="criancas"
+				min="0"
+				placeholder="Duração (h)"
+			/>
+			<button id="botao">Calcular</button>
+
+			<div id="resultado"></div>
+		</div>
+
+		<script src="./Script/script.js"></script>
+	</body>
+</html>
