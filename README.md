@@ -1,5 +1,7 @@
 # Projeto.Churrascometro-Matheus_Mourao
 Projeto para calcular a quantidade de comida e bebida necessária para um churrasco.
+</br>
+![GitHub](https://img.shields.io/github/license/Matheus-TC-Mourao/Projeto.Churrascometro-Matheus_Mourao)
 
 
 ## Sobre o Projeto
@@ -25,5 +27,4 @@ Para este projetos foram utilizadas as seguintes Tecnologias:
 - JavaScript
 
 ## Licença
-Este projeto esta sob licença: 
-![GitHub](https://img.shields.io/github/license/Matheus-TC-Mourao/Projeto.Churrascometro-Matheus_Mourao)
+Este projeto esta sob licença MIT
